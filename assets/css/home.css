@@ -1,5 +1,5 @@
 #container{
-	background-color: black;
+	background-color: #f0f0f0;
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -13,26 +13,45 @@
 	  text-align: center;
 	 
 }
+ul {
+    text-align: center;
+    list-style-position: inside;
+
+} 
+li{
+	margin: 5px 0;
+}
+#contents{
+	margin: 10% 10%;
+}
 
 #name{
-	color: #D3D3D3;
+	color: #505050;
 
 	font-family: 'Montserrat', sans-serif;
-	font-size: 70px;
+	font-size: 50px;
 
-	overflow: hidden; 
-  	white-space: nowrap; 
-  	margin: 10% auto; 
+	
   	letter-spacing: .15em; 
-  	animation: typing 4s steps(50);
+  	margin: 20px;
+  	
     
 	
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+#intro{
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
+
+#current{
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+}
+
 
 #logo{
 	height: 60px;
@@ -43,19 +62,12 @@
 .link{
 	text-decoration: none;
 }
-
-.menuitem{
-	color: white;
-	border: solid transparent;
-	
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	margin: 20px;
-	padding: 10px;
-	
-	
-
+.orglink{
+	text-decoration: none;
+	color: #00C5CD;
 }
+
+
 
 .fa {
     padding: 20px;
@@ -64,11 +76,14 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    border: solid #00bfff;
+    border: solid #00C5CD;
     background-color: grey;
     color: white;
     margin-right: 7px;
     margin-left: 7px;
+}
+#socialmedia{
+	margin: 30px;
 }
 
 /* Add a hover effect if you want */
@@ -77,19 +92,3 @@
 }
 
 
-.menuitem:hover{
-	border-color: white;
-}
-
-#header{
-	width: 100%;
-	border: 2px white;
-	display: flex;
-  	
-  
-  	justify-content: flex-end;
-	
-	flex-direction: row;
-	
-	align-items: center;
-}
